@@ -1032,10 +1032,11 @@ main h2 {
   padding-top: 0.5em;
 }
 .view-mode-teaser h2 a {
-  color: #181818;
+  /*color: #181818;*/
+  text-decoration: none;
 }
 .view-mode-teaser {
-  border-bottom: 1px solid #d3d7d9;
+  border-bottom: 1px solid;
   margin-bottom: 30px;
   padding-bottom: 15px;
 }
@@ -1375,10 +1376,6 @@ article .link-wrapper ul.links {
   padding: 0.8em 2px 0.8em 20px; /* LTR */
   text-indent: -15px;
 }
-[dir="rtl"] .l-footer-columns li a,
-[dir="rtl"] .l-footer li a {
-  padding: 0.8em 20px 0.8em 2px;
-}
 .l-footer-columns li a:hover,
 .l-footer-columns li a:focus,
 .l-footer li a:hover,
@@ -1392,7 +1389,8 @@ article .link-wrapper ul.links {
   color: rgba(255, 255, 255, 0.95);
 }
 .l-footer {
-  padding: 35px 0 30px;
+  padding: 2.188em 0 1.875em;
+  margin-top: 1em;
 }
 .l-footer .section {
   letter-spacing: 0.2;
@@ -1543,7 +1541,6 @@ ul.action-links li a {
 .breadcrumb {
   font-size: 0.929em;
   padding: 0.8em;
-  background: rgba(0,0,0,0.1);
 }
 .breadcrumb ol {
   margin: 0;
