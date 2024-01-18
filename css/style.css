@@ -887,8 +887,8 @@ template {
 /* Prevents 2+ level menu items with child items from "jumping" when their 
    child items are hovered over. */
 .js .menu-dropdown .has-children a {
-  height: 3.5em;
-  line-height: 3.5em;
+  height: 2.8em;
+  line-height: 2.8em;
   padding: 0 1.5em;
 }
 .l-header ul.menu li li a {
