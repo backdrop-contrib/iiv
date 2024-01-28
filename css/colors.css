@@ -92,3 +92,8 @@ a.button,
 .breadcrumb {
   background-color: #f3f7fa;
 }
+
+.field-type-taxonomy-term-reference ul.links li a:hover {
+  background-color: #0071b3;
+  color: #ffffff;
+}
