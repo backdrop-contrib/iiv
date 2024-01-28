@@ -1018,11 +1018,6 @@ article .link-wrapper ul.links {
   position: absolute;
   width: 20px;
 }
-[dir="rtl"] .comment .comment-arrow {
-  background-image: url(../images/comment-arrow-rtl.gif);
-  margin-left: 0;
-  margin-right: -47px;
-}
 .comment .comment-text {
   padding: 10px 25px;
   border: 1px solid #d3d7d9;
@@ -1403,6 +1398,7 @@ ul.action-links li a {
 .block-hero .block-title {
   margin: 2% 0; /* Top/bottom margin shrinks/grows according to width. */
   font-size: 180%;
+  background-color: rgba(0, 0, 0, 0.25); 
 }
 @media (min-width: 34em) {
   .block-hero {
