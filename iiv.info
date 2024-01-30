@@ -8,15 +8,7 @@ stylesheets[all][] = css/style.css
 stylesheets[all][] = css/colors.css
 stylesheets[print][] = css/print.css
 
-; Include a style sheet in the rich-text editor.
-ckeditor_stylesheets[] = css/editor.css
-
 ; We need at least one setting for the theme settings page to appear in the
 ; menu. Color module provides our defaults, so we just register a dummy setting.
 settings[color] = true
 settings[main_menu_tabs] = square-tabs
-
-; Added by Backdrop CMS packaging script on 2023-12-20
-project = backdrop
-version = 1.26.3
-timestamp = 1703111980
