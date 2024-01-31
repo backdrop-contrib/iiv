@@ -136,7 +136,7 @@ a.button,
 .more-link a,
 .node-readmore a {
   background: var(--iiv-link);
-  color: var(--iiv-bg);
+  /*color: var(--iiv-bg);*/
 }
 
 .breadcrumb {

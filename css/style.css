@@ -1315,6 +1315,8 @@ a.button,
   margin-bottom: 1em;
   margin-right: 0.6em; 
   padding: 4px 17px;
+  color: #FCFCFC;
+  border: none;
 }
 
 a.button:link,
@@ -1324,7 +1326,8 @@ a.button:focus,
 a.button:active,
 .node-readmore a:hover {
   text-decoration: none;
-  opacity: 0.9;
+  /*opacity: 0.9;*/
+  color: #FCFCFC;
 }
 
 .node-readmore {
