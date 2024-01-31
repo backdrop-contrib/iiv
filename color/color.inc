@@ -21,7 +21,7 @@ $info = array(
   // Pre-defined color schemes.
   'schemes' => array(
     'default' => array(
-      'title' => t('IIV Orange'),
+      'title' => t('IIV Red'),
       'colors' => array(
         'top' => '#15141A',
         'bottom' => '#5B5B66',
@@ -31,7 +31,7 @@ $info = array(
         'footer' => '#272933',
         'titleslogan' => '#FC5414',
         'text' => '#000000',
-        'link' => '#fd7e14',
+        'link' => '#FC2D14',
         'menu' => '#d3dbde',
         'activemenu' => '#fffffe',
       ),
