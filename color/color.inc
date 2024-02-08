@@ -31,7 +31,7 @@ $info = array(
         'footer' => '#272933',
         'titleslogan' => '#FC5414',
         'text' => '#000000',
-        'link' => '#FC2D14',
+        'link' => '#fd6251',
         'menu' => '#d3dbde',
         'activemenu' => '#fffffe',
       ),
