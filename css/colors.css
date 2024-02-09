@@ -9,7 +9,7 @@
   --iiv-footer: #272933;
   --iiv-titleslogan: #FC5414;
   --iiv-text: #000000;
-  --iiv-link: #FC2D14;
+  --iiv-link: #fd6251;
   --iiv-menu: #d3dbde;
   --iiv-activemenu: #fffffe;
   --iiv-gradient-linear: linear-gradient(to bottom, #15141A, #5B5B66);
@@ -158,13 +158,13 @@ a.button,
 }
 .l-footer-columns a,
 .l-footer a {
-  var(--iiv-menu)
+  color: var(--iiv-menu)
 }
 .l-footer-columns a:hover,
 .l-footer-columns a:focus,
 .l-footer a:hover,
 .l-footer a:focus {
-  var(--iiv-menu)
+  color: var(--iiv-menu);
 }
 .l-footer-columns h2,
 .l-footer h2 {
