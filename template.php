@@ -13,20 +13,6 @@ function iiv_preprocess_maintenance_page(&$variables) {
   backdrop_add_css(backdrop_get_path('theme', 'iiv') . '/css/maintenance-page.css');
 }
 
-/**
- * Prepares variables for page templates.
- *
- * @see page.tpl.php
- */
-function iiv_css_alter(&$css) {
-  // If using the legacy "Blue lagoon" color scheme, load the legacy stylesheet.
-  /*
-  $theme_path = backdrop_get_path('theme', 'iiv');
-  if (theme_get_setting('color_legacy') && isset($css[$theme_path . '/css/colors.css'])) {
-    $css[$theme_path . '/css/colors.css']['data'] = $theme_path . '/css/colors-legacy.css';
-  }
-  */
-}
 
 /**
  * Prepares variables for layout template files.
@@ -36,7 +22,7 @@ function iiv_css_alter(&$css) {
 function iiv_preprocess_layout(&$variables) {
   if (isset($variables['content']['header'])) {
     $extra_header_classes = array();
-    $extra_header_classes[] = "square-tabs"; //theme_get_setting('main_menu_tabs');
+    $extra_header_classes[] = "square-tabs";
     $variables['content']['header'] = '<div class="' . implode(' ', $extra_header_classes) . '">' . $variables['content']['header'] . '</div>';
   }
 }

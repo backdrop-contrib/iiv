@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Bartik's theme implementation for comments.
+ * IIV's theme implementation for comments.
  *
  * Available variables:
  * - $author: Comment author. Can be link or plain text.

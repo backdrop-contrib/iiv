@@ -7,7 +7,7 @@
  *
  * @see template_preprocess()
  * @see template_preprocess_maintenance_page()
- * @see bartik_process_maintenance_page()
+ * @see iiv_process_maintenance_page()
  */
 ?>
 <!DOCTYPE html>
