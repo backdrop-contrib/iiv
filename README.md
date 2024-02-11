@@ -19,7 +19,7 @@ But this is only the beginning...
  - Install and enable this theme using the official [Backdrop CMS instructions](https://backdropcms.org/guide/themes).
 
 ## Current Maintainers
-Dominique MEGE (https://github.com/ininfoveritas)
+Dominique (https://github.com/ininfoveritas)
 
 ## License
 
