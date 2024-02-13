@@ -7,6 +7,7 @@ J'ai décidé de partir de cette base en essayant d'épurer ce que je ne voulais
 
 - Moins de templates (node, layout): pour plus de standard
 - Moins de CSS (editor.css, colors-legacy.css)
+- Utilisation de normalize.css pour initialiser les css
 - Utilisation de variables CSS dans colors.css pour plus de clarté
 - Quelques netoyages dans style.css
 - Utilisation unique du mode "square-tabs"
@@ -21,6 +22,7 @@ I decided to start from this base by trying to purify what I didn't want to put 
 
 - Fewer templates (node, layout): for more standard
 - Less CSS (editor.css, colors-legacy.css)
+- Using normalize.css to initialize css
 - Using CSS variables in colors.css for clarity
 - Some cleanups in style.css
 - Unique use of "square-tabs" mode
