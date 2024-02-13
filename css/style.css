@@ -72,6 +72,14 @@ hr {
 pre {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
+  white-space: pre-wrap;
+  display: block;
+  border: solid 0.5px;
+  padding: 0.5em;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #1f1f1f;
+  color: #fdfdfd;
 }
 
 /* Text-level semantics
@@ -115,11 +123,6 @@ kbd,
 samp {
   font-family: monospace, monospace; /* 1 */
   font-size: 0.8em; /* 2 */
-  white-space: pre-wrap;
-  display: block;
-  border: solid 0.5px;
-  padding: 0.5em;
-  border-radius: 5px;
 }
 
 /**
