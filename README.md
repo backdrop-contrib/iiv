@@ -11,6 +11,8 @@ J'ai décidé de partir de cette base en essayant d'épurer ce que je ne voulais
 - Utilisation de variables CSS dans colors.css pour plus de clarté
 - Quelques netoyages dans style.css
 - Utilisation unique du mode "square-tabs"
+- Quelques changement sur le menu (position, police, background, etc.)
+- Utilisation de la largeur totale de la page
 
 
 Mais ce n'est qu'un début...
@@ -26,6 +28,8 @@ I decided to start from this base by trying to purify what I didn't want to put 
 - Using CSS variables in colors.css for clarity
 - Some cleanups in style.css
 - Unique use of "square-tabs" mode
+- Some changes to the menu (position, font, background, etc.)
+- Using the full width of the page
 
 
 But this is only the beginning...
