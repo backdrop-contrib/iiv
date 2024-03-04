@@ -632,22 +632,12 @@ template {
   clear: both;
 }
 .l-header .block-user-login .form-submit {
-  border: 1px solid;
-  border-color: #ccc;
-  border-color: rgba(255, 255, 255, 0.5);
-  background: #eee;
-  background: rgba(255, 255, 255, 0.7);
   margin: 4px 0;
   padding: 3px 8px;
 }
-.l-header .block-user-login .form-submit:hover,
-.l-header .block-user-login .form-submit:focus {
-  background: #fff;
-  background: rgba(255, 255, 255, 0.9);
-}
 /* Search block in region header. */
 .l-header .block-search-form {
-  width: 208px;
+  width: auto;
 }
 .l-header .block-search-form .form-text {
   width: 154px;
@@ -1458,7 +1448,7 @@ input.form-number,
 input.form-search,
 textarea.form-textarea,
 select.form-select {
-  border: 1px solid #ccc;
+  border: 1px solid;
   box-sizing: border-box;
   max-width: 100%;
 }
@@ -1468,11 +1458,14 @@ select.form-select {
   opacity: 0.9;
 }
 .form-item {
-  margin-bottom: 1em;
+  margin-bottom: 0em;
   margin-top: 2px;
 }
 .form-item label {
   font-size: 0.929em;
+}
+.form-actions {
+  margin-top: 0em;
 }
 .form-type-radio label,
 .form-type-checkbox label {
@@ -1633,13 +1626,9 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
 #search-form .form-submit {
   margin-left: 0;
   margin-right: 0;
-  height: 26px;
-  width: 34px;
-  padding: 0;
+  height: 36px;
+  padding: 0.5rem;
   cursor: pointer;
-  text-indent: -9999px;
-  border-color: #e4e4e4 #d2d2d2 #b4b4b4;
-  background: url(../images/search-button.png) no-repeat center top;
   overflow: hidden;
 }
 #search-block-form .form-submit:hover,
@@ -1651,6 +1640,7 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
 #search-form .form-item-keys label {
   display: block;
 }
+
 
 /* --------------- Search Results ---------------- */
 ol.search-results {
@@ -1826,8 +1816,6 @@ table tbody > tr:last-child > td {
 .form-item textarea {
     padding: 0.5em 0.6em;
     display: inline-block;
-    border: 1px solid #ccc;
-    box-shadow: inset 0 1px 3px #ddd;
     border-radius: 4px;
     vertical-align: middle;
     box-sizing: border-box;
@@ -1840,8 +1828,7 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 .form-item input:not([type]) {
     padding: 0.5em 0.6em;
     display: inline-block;
-    border: 1px solid #ccc;
-    box-shadow: inset 0 1px 3px #ddd;
+    border: 1px solid;
     border-radius: 4px;
     box-sizing: border-box;
 }
